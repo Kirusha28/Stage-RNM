@@ -1,0 +1,40 @@
+.Btn-open {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: #54d27e;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+}
+.create {
+  left: 3%;
+  top: 3%;
+}
+
+.Btn-close {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: #d25454;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+}
+
+.edit {
+  left: 3%;
+  top: 10%;
+}

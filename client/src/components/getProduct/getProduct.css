@@ -1,0 +1,49 @@
+.ProductTable {
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+    background-color: rgb(5, 56, 49);
+    padding: 20px 20px;
+    border-radius: 8px;
+}
+table {
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+th {
+    color: rgb(5, 56, 49);
+    font-size: 20px;
+}
+td {
+    text-align: center;
+}
+th:first-child {
+    width: 30px;
+}
+th:last-child {
+    width: 30px;
+}
+td button {
+    background-color: rgb(5, 56, 49);
+    outline: none;
+    border: none;
+    color: rgb(34, 147, 132);
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    transition: 1s;
+}
+td button:hover {
+    background-color: rgb(11, 122, 107);
+    color: aliceblue;
+}
+td button:first-child {
+    background-color: rgb(164, 18, 18);
+    color: rgb(215, 215, 215);
+}
+td button:first-child:hover {
+    background-color: rgb(255, 0, 0);
+}

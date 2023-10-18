@@ -1,0 +1,67 @@
+.container {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.44);
+    z-index: 0;
+}
+.addProductForm {
+    position: fixed;
+    top: 5%;
+    left: 27%;
+    width: 40%;
+    background-color: rgb(5, 56, 49);
+    padding: 20px 50px;
+    border-radius: 8px;
+}
+.cont {
+    display: flex;
+    justify-content: space-around;
+}
+.inputEditGroup {
+    background-color: #D99B5E;
+    padding: 10px 25px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.inputEditGroup * {
+    display: block;
+    padding: 5px;
+}
+.inputEditGroup label {
+    font-weight: 700;
+    font-size: large;
+    color: white;
+}
+.inputEditGroup input {
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid gray;
+    width: 220px;
+}
+.Btn-edit {
+    position: relative;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(17, 159, 140);
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 30px;
+    font-weight: 600;
+    opacity: 1;
+    transition: .5s;
+    left: 39%;
+}
+.Btn-edit:hover {
+    opacity: 0.8;
+}
+h3 {
+    color: white;
+    font-size: 50px;
+    margin: 10px;
+}

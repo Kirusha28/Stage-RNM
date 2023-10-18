@@ -1,0 +1,12 @@
+POST http://localhost:8080/CREATE
+Content-Type: application/json
+
+{
+    "title": "Ipad"
+}
+
+###
+DELETE http://localhost:8080/DELETE/652baab51c48deef27c08f57
+
+###
+POST http://localhost:8080/CREATE
